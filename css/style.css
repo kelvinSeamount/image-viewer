@@ -82,3 +82,19 @@ section {
   transform: scale(1.1);
   cursor: pointer;
 }
+
+/*====================MEDIA QUERIES(TABLETS)======================*/
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--md--container-width);
+    margin: 0 auto;
+  }
+}
+
+/*====================MEDIA QUERIES(MOBILE PHONES)======================*/
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--md--container-width);
+    margin: 0 auto;
+  }
+}
